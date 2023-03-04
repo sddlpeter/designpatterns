@@ -7,7 +7,6 @@ public class Client {
         College CSCollege = new College("计算机学院", "");
         College ITCollege = new College("信息技术学院", "");
 
-
         university.add(CSCollege);
         university.add(ITCollege);
 
