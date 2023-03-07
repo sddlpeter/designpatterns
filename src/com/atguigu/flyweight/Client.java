@@ -12,5 +12,7 @@ public class Client {
         website3.use(new User("Alice"));
         website4.use(new User("Bob"));
         System.out.println(factory.getWebsiteCount());
+
+
     }
 }
