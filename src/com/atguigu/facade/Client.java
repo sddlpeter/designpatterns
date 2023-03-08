@@ -1,6 +1,6 @@
 package com.atguigu.facade;
 
-import org.apache.ibatis.session.Configuration;
+// import org.apache.ibatis.session.Configuration;
 
 import java.util.Map;
 
@@ -35,6 +35,6 @@ public class Client {
         System.out.println("------- end --------");
         facade.end();
 
-        Configuration config;
+        // Configuration config;
     }
 }
