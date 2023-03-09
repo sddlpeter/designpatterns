@@ -9,5 +9,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="asm.commons" level="project" />
     <orderEntry type="library" exported="" name="cglib" level="project" />
+    <orderEntry type="library" exported="" name="springframework.boot.spring" level="project" />
   </component>
 </module>
