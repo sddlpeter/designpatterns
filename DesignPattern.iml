@@ -11,5 +11,7 @@
     <orderEntry type="library" exported="" name="cglib" level="project" />
     <orderEntry type="library" exported="" name="springframework.boot.spring" level="project" />
     <orderEntry type="library" exported="" name="cglib.full" level="project" />
+    <orderEntry type="library" exported="" name="springframework.spring.jdbc" level="project" />
+    <orderEntry type="library" name="cglib-full-2.0.2" level="project" />
   </component>
 </module>

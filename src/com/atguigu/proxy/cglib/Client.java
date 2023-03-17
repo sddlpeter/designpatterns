@@ -5,5 +5,7 @@ public class Client {
         TeacherDAO target = new TeacherDAO();
         TeacherDAO proxyInstance = (TeacherDAO) new ProxyFactory(target).getProxyInstance();
         proxyInstance.teach();
+
+        System.out.println("test");
     }
 }
