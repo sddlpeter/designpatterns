@@ -1,6 +1,6 @@
 package com.atguigu.state.lending;
 
-public abstract class Context extends AbstractState {
+public class Context extends AbstractState {
     private State state;
 
 

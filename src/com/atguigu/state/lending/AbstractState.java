@@ -2,7 +2,7 @@ package com.atguigu.state.lending;
 
 public abstract class AbstractState implements State {
 
-    protected static final RuntimeException EXCEPTION = new RuntimeException();
+    protected static final RuntimeException EXCEPTION = new RuntimeException("操作流程不允许");
 
     @Override
     public void checkEvent(Context context) {
@@ -42,10 +42,5 @@ public abstract class AbstractState implements State {
     @Override
     public void feedbackEvent(Context context) {
         throw EXCEPTION;
-    }
-
-    @Override
-    public String getCurrentState() {
-        return null;
     }
 }
